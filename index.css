@@ -1,0 +1,41 @@
+* {
+  font-family: "Rubik";
+  user-select: none;
+}
+
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.img-cap {
+  width: 45%;
+  aspect-ratio: 1/1.2;
+  object-fit: cover;
+  border: 2vw solid white;
+  border-bottom-width: calc(2vw + 2vh);
+}
+
+.img-rotate:nth-child(even) {
+  rotate: 5deg;
+}
+
+.img-rotate:nth-child(odd) {
+  rotate: -5deg;
+}
+
+p {
+  font-size: calc(2.3vw + 1vh);
+}
+
+a {
+  font-size: calc(2.3vw + 1vh);
+  cursor: pointer;
+}
+
+.text-title {
+  font-size: calc(2.5vw + 2vh);
+}
+
+.text-subtitle {
+  font-size: calc(2.5vw + 1.5vh);
+}
